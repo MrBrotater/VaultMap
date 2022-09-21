@@ -22,7 +22,7 @@ class Level:
             for col_index, column in enumerate(row):
                 x = col_index * TILESIZE
                 y = row_index * TILESIZE
-                if column == 'x':
+                if column == 'w':
                     Tile(pos=(x, y), groups=[self.visible_sprites, self.obstacle_sprites])
                 if column == 'p':
                     self.player = Player(pos=(x, y), groups=[self.visible_sprites], obstacle_sprites=self.obstacle_sprites)

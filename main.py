@@ -1,6 +1,7 @@
 import pygame, sys
 from settings import *
 from level import Level
+import csv
 
 
 class Game:
@@ -31,5 +32,4 @@ if __name__ == '__main__':
     game = Game()
     game.run()
 
-# tutorial = https://www.youtube.com/watch?v=QU1pPzEGrqw
-# stopped watching at 1:15:59
+
