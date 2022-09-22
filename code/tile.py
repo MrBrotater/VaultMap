@@ -9,4 +9,3 @@ class Tile(pygame.sprite.Sprite):
         self.image = pygame.image.load('../graphics/test/rock.png').convert_alpha()
         self.rect = self.image.get_rect(topleft=pos)
         self.hitbox = self.rect.inflate(-10, -10)  # makes the hitbox 5 pixels from top and bottom of rect
-
